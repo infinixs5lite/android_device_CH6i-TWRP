@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/TECNO-CH6i
+DEVICE_PATH := device/tecno/CH6i
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -84,6 +84,7 @@ BOARD_SUPER_PARTITION_SIZE := 9126805504 # TODO: Fix hardcoded value
 BOARD_SUPER_PARTITION_GROUPS := tecno_dynamic_partitions
 BOARD_TECNO_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor product system_ext
 BOARD_TECNO_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 9126805504
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
@@ -107,8 +108,8 @@ PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
-TW_EXTRA_LANGUAGES := true
+TW_EXTRA_LANGUAGES := false
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
-TW_USE_TOOLBOX := true
+TW_USE_TOOLBOX := false
 TW_INCLUDE_REPACKTOOLS := true
