@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_TECNO-CH6i.mk
+    $(LOCAL_DIR)/twrp_CH6i.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_TECNO-CH6i-user \
-    omni_TECNO-CH6i-userdebug \
-    omni_TECNO-CH6i-eng
+    twrp_CH6i-user \
+    twrp_CH6i-userdebug \
+    twrp_CH6i-eng
