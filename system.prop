@@ -6,3 +6,5 @@ persist.sys.isUsbOtgEnabled=true
 ro.sys.usb.mtp.whql.enable=0
 ro.sys.usb.storage.type=mtp
 ro.mediatek.platform=MT6768
+ro.crypto.allow_encrypt_override=true
+ro.crypto.dm_default_key.options_format.version=2
