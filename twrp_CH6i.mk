@@ -19,8 +19,8 @@ $(call inherit-product, device/tecno/CH6i/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 PRODUCT_DEVICE := CH6i
 PRODUCT_NAME := twrp_CH6i
-PRODUCT_BRAND := TECNO
-PRODUCT_MODEL := TECNO Cammon 19 neo
+PRODUCT_BRAND := tecno
+PRODUCT_MODEL := tecno Cammon 19 neo
 PRODUCT_MANUFACTURER := tecno
 
 PRODUCT_GMS_CLIENTID_BASE := android-tecno
